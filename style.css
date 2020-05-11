@@ -1,0 +1,28 @@
+h1{
+  color: red;
+  border-bottom: 2px solid gray;
+  /* background-color: gray; */
+}
+
+.btn{
+  background-color: rgba(128, 128, 128, 0.733);
+  cursor: pointer;
+  box-shadow: 0 7px black;
+  opacity: 0.7;
+  padding: 15px 40px;
+}
+
+.btn:hover{
+  opacity: 1;
+}
+
+.btn:active{
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+p{
+  margin-top: 70px;
+  margin-left: 30px;
+}
